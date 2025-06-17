@@ -17,23 +17,19 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->enum('role', ['superadmin', 'admin', 'student', 'company'])->default('student'); // Adicione 'company'
+            $table->string('phone')->nullable();
+            $table->integer('course_completion_year')->nullable();
+            $table->string('photo')->nullable();
+            $table->string('cv')->nullable();
+            $table->string('company_name')->nullable();
+            $table->string('company_city')->nullable();
+            $table->string('company_website')->nullable();
+            $table->text('company_description')->nullable();
+            $table->string('company_logo')->nullable();
+            $table->enum('registration_status', ['approved', 'pending'])->default('approved');
             $table->rememberToken();
             $table->timestamps();
-        });
-
-        Schema::create('password_reset_tokens', function (Blueprint $table) {
-            $table->string('email')->primary();
-            $table->string('token');
-            $table->timestamp('created_at')->nullable();
-        });
-
-        Schema::create('sessions', function (Blueprint $table) {
-            $table->string('id')->primary();
-            $table->foreignId('user_id')->nullable()->index();
-            $table->string('ip_address', 45)->nullable();
-            $table->text('user_agent')->nullable();
-            $table->longText('payload');
-            $table->integer('last_activity')->index();
         });
     }
 
@@ -43,7 +39,5 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('users');
-        Schema::dropIfExists('password_reset_tokens');
-        Schema::dropIfExists('sessions');
     }
 };

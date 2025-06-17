@@ -2,9 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class AreaOfInterest extends Model
 {
-    //
+    use HasFactory;
+
+    protected $table = 'areas_of_interest'; // Explicitly set table name
+    protected $fillable = ['name'];
 }

@@ -1,0 +1,11 @@
+{
+    "intelephense.diagnostics.undefinedMethods": false
+}
+{
+    "intelephense.stubs": [
+        "laravel",
+        "phpunit",
+        "pest"
+    ],
+    "intelephense.diagnostics.undefinedTypes": false
+}

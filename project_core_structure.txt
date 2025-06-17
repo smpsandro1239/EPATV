@@ -1,0 +1,351 @@
+ Volume in drive C is Boot
+ Volume Serial Number is 7223-4313
+
+ Directory of C:\laragon\www\epatv-job-portal\app
+
+12/06/2025  15:28    <DIR>          .
+13/06/2025  00:27    <DIR>          ..
+12/06/2025  18:32               194 helpers.php
+11/06/2025  16:16    <DIR>          Http
+11/06/2025  10:36    <DIR>          Models
+11/06/2025  16:27    <DIR>          Notifications
+26/05/2025  18:17    <DIR>          Providers
+08/06/2025  01:18    <DIR>          View
+               1 File(s)            194 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http
+
+11/06/2025  16:16    <DIR>          .
+12/06/2025  15:28    <DIR>          ..
+11/06/2025  16:31    <DIR>          Controllers
+12/06/2025  18:35             1 514 Kernel.php
+11/06/2025  16:32    <DIR>          Middleware
+11/06/2025  16:24    <DIR>          Requests
+               1 File(s)          1 514 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http\Controllers
+
+11/06/2025  16:31    <DIR>          .
+11/06/2025  16:16    <DIR>          ..
+11/06/2025  16:31             1 274 AdminController.php
+08/06/2025  01:18    <DIR>          Auth
+26/05/2025  18:17                77 Controller.php
+11/06/2025  16:27             1 151 JobApplicationController.php
+12/06/2025  15:53             1 102 JobController.php
+09/06/2025  20:13             1 416 ProfileController.php
+11/06/2025  16:19             1 944 RegistrationWindowController.php
+11/06/2025  16:27               644 SavedJobController.php
+               7 File(s)          7 608 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http\Controllers\Auth
+
+08/06/2025  01:18    <DIR>          .
+11/06/2025  16:31    <DIR>          ..
+09/06/2025  20:13             1 038 AuthenticatedSessionController.php
+09/06/2025  20:13             1 024 ConfirmablePasswordController.php
+09/06/2025  20:13               630 EmailVerificationNotificationController.php
+09/06/2025  20:13               564 EmailVerificationPromptController.php
+09/06/2025  20:13             2 210 NewPasswordController.php
+09/06/2025  20:13               795 PasswordController.php
+09/06/2025  20:13             1 311 PasswordResetLinkController.php
+11/06/2025  16:18             1 909 RegisteredUserController.php
+09/06/2025  20:13               800 VerifyEmailController.php
+               9 File(s)         10 281 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http\Middleware
+
+11/06/2025  16:32    <DIR>          .
+11/06/2025  16:16    <DIR>          ..
+11/06/2025  16:15               438 CheckRegistrationWindow.php
+08/06/2025  00:58               739 EnsureEmailIsVerified.php
+11/06/2025  16:32               334 EnsureUserRole.php
+               3 File(s)          1 511 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http\Requests
+
+11/06/2025  16:24    <DIR>          .
+11/06/2025  16:16    <DIR>          ..
+08/06/2025  00:58    <DIR>          Auth
+09/06/2025  20:13               743 ProfileUpdateRequest.php
+11/06/2025  16:24               719 StoreJobRequest.php
+               2 File(s)          1 462 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Http\Requests\Auth
+
+08/06/2025  00:58    <DIR>          .
+11/06/2025  16:24    <DIR>          ..
+09/06/2025  20:13             2 233 LoginRequest.php
+               1 File(s)          2 233 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Models
+
+11/06/2025  10:36    <DIR>          .
+12/06/2025  15:28    <DIR>          ..
+12/06/2025  10:51               295 AreaOfInterest.php
+12/06/2025  10:47               603 Job.php
+12/06/2025  10:32               563 JobApplication.php
+11/06/2025  16:14               497 RegistrationWindow.php
+11/06/2025  16:13               323 SavedJob.php
+12/06/2025  15:32               546 User.php
+11/06/2025  16:14               368 UserAreaOfInterest.php
+               7 File(s)          3 195 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Notifications
+
+11/06/2025  16:27    <DIR>          .
+12/06/2025  15:28    <DIR>          ..
+11/06/2025  16:28               945 ApplicationReceived.php
+               1 File(s)            945 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\Providers
+
+26/05/2025  18:17    <DIR>          .
+12/06/2025  15:28    <DIR>          ..
+12/06/2025  16:01               618 AppServiceProvider.php
+               1 File(s)            618 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\View
+
+08/06/2025  01:18    <DIR>          .
+12/06/2025  15:28    <DIR>          ..
+08/06/2025  01:18    <DIR>          Components
+               0 File(s)              0 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\app\View\Components
+
+08/06/2025  01:18    <DIR>          .
+08/06/2025  01:18    <DIR>          ..
+09/06/2025  20:13               296 AppLayout.php
+09/06/2025  20:13               300 GuestLayout.php
+               2 File(s)            596 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\database
+
+08/06/2025  00:54    <DIR>          .
+13/06/2025  00:27    <DIR>          ..
+26/05/2025  18:17                10 .gitignore
+08/06/2025  00:54                 0 database.sqlite
+12/06/2025  10:40    <DIR>          factories
+12/06/2025  11:23    <DIR>          migrations
+11/06/2025  10:50    <DIR>          seeders
+               2 File(s)             10 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\database\factories
+
+12/06/2025  10:40    <DIR>          .
+08/06/2025  00:54    <DIR>          ..
+12/06/2025  10:55               313 AreaOfInterestFactory.php
+12/06/2025  10:32               717 JobApplicationFactory.php
+12/06/2025  11:29               846 JobFactory.php
+12/06/2025  15:32               636 UserFactory.php
+               4 File(s)          2 512 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\database\migrations
+
+12/06/2025  11:23    <DIR>          .
+08/06/2025  00:54    <DIR>          ..
+11/06/2025  17:25             1 468 0001_01_01_000000_create_users_table.php
+12/06/2025  10:29               500 0001_01_01_000001_create_areas_of_interest_table.php
+26/05/2025  18:17               849 0001_01_01_000001_create_cache_table.php
+12/06/2025  10:30               939 0001_01_01_000002_create_jobs_table.php
+08/06/2025  00:58               856 2025_06_07_235834_create_personal_access_tokens_table.php
+12/06/2025  10:29               732 2025_06_12_092205_create_registration_windows_table.php
+12/06/2025  10:30             1 010 2025_06_12_092207_create_job_applications_table.php
+12/06/2025  10:27               599 2025_06_12_092209_create_saved_jobs_table.php
+12/06/2025  11:23               693 2025_06_12_092213_create_sessions_table.php.php
+12/06/2025  10:30               672 2025_06_12_092213_create_user_areas_of_interest_table.php
+              10 File(s)          8 318 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\database\seeders
+
+11/06/2025  10:50    <DIR>          .
+08/06/2025  00:54    <DIR>          ..
+12/06/2025  10:52               357 AreaOfInterestSeeder.php
+12/06/2025  10:45               222 DatabaseSeeder.php
+11/06/2025  11:03               996 JobSeeder.php
+               3 File(s)          1 575 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources
+
+09/06/2025  15:10    <DIR>          .
+13/06/2025  00:27    <DIR>          ..
+09/06/2025  15:10    <DIR>          css
+09/06/2025  22:55    <DIR>          js
+12/06/2025  09:58    <DIR>          views
+               0 File(s)              0 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\css
+
+09/06/2025  15:10    <DIR>          .
+09/06/2025  15:10    <DIR>          ..
+10/06/2025  23:41                83 app.css
+               1 File(s)             83 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\js
+
+09/06/2025  22:55    <DIR>          .
+09/06/2025  15:10    <DIR>          ..
+10/06/2025  18:45                73 app.js
+09/06/2025  22:55                79 bootstrap.js
+               2 File(s)            152 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views
+
+12/06/2025  09:58    <DIR>          .
+09/06/2025  15:10    <DIR>          ..
+08/06/2025  00:58                 2 .gitkeep
+11/06/2025  16:36    <DIR>          admin
+09/06/2025  14:50    <DIR>          auth
+08/06/2025  01:18    <DIR>          components
+12/06/2025  09:59    <DIR>          dashboard
+12/06/2025  15:19               350 dashboard.blade.php
+11/06/2025  16:26    <DIR>          jobs
+08/06/2025  01:18    <DIR>          layouts
+08/06/2025  01:18    <DIR>          profile
+12/06/2025  10:56               399 welcome.blade.php
+               3 File(s)            751 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\admin
+
+11/06/2025  16:36    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+12/06/2025  09:56             1 583 dashboard.blade.php
+11/06/2025  16:21    <DIR>          registration-windows
+               1 File(s)          1 583 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\admin\registration-windows
+
+11/06/2025  16:21    <DIR>          .
+11/06/2025  16:36    <DIR>          ..
+11/06/2025  16:22             1 819 create.blade.php
+11/06/2025  16:21             1 843 index.blade.php
+               2 File(s)          3 662 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\auth
+
+09/06/2025  14:50    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+09/06/2025  20:13               905 confirm-password.blade.php
+09/06/2025  20:13             1 000 forgot-password.blade.php
+09/06/2025  20:13             2 155 login.blade.php
+12/06/2025  15:37             2 133 register.blade.php
+09/06/2025  20:13             1 646 reset-password.blade.php
+09/06/2025  20:13             1 361 verify-email.blade.php
+               6 File(s)          9 200 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\components
+
+08/06/2025  01:18    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+09/06/2025  20:13             3 045 application-logo.blade.php
+09/06/2025  20:13               180 auth-session-status.blade.php
+09/06/2025  20:13               412 danger-button.blade.php
+09/06/2025  20:13               282 dropdown-link.blade.php
+09/06/2025  20:13             1 261 dropdown.blade.php
+09/06/2025  20:13               259 input-error.blade.php
+09/06/2025  20:13               162 input-label.blade.php
+09/06/2025  20:13             3 239 modal.blade.php
+09/06/2025  20:13               770 nav-link.blade.php
+09/06/2025  20:13               536 primary-button.blade.php
+09/06/2025  20:13             1 004 responsive-nav-link.blade.php
+09/06/2025  20:13               505 secondary-button.blade.php
+09/06/2025  20:13               297 text-input.blade.php
+              13 File(s)         11 952 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\dashboard
+
+12/06/2025  09:59    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+12/06/2025  09:59               361 company.blade.php
+12/06/2025  09:59               659 student.blade.php
+               2 File(s)          1 020 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\jobs
+
+11/06/2025  16:26    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+11/06/2025  16:27             1 916 index.blade.php
+11/06/2025  16:26             2 505 show.blade.php
+               2 File(s)          4 421 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\layouts
+
+08/06/2025  01:18    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+11/06/2025  16:22             2 506 app.blade.php
+12/06/2025  11:29               173 guest.blade.php
+09/06/2025  20:13             5 286 navigation.blade.php
+               3 File(s)          7 965 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\profile
+
+08/06/2025  01:18    <DIR>          .
+12/06/2025  09:58    <DIR>          ..
+09/06/2025  20:13             1 039 edit.blade.php
+08/06/2025  01:18    <DIR>          partials
+               1 File(s)          1 039 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\resources\views\profile\partials
+
+08/06/2025  01:18    <DIR>          .
+08/06/2025  01:18    <DIR>          ..
+09/06/2025  20:13             2 216 delete-user-form.blade.php
+09/06/2025  20:13             2 175 update-password-form.blade.php
+09/06/2025  20:13             2 846 update-profile-information-form.blade.php
+               3 File(s)          7 237 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\routes
+
+08/06/2025  00:58    <DIR>          .
+13/06/2025  00:27    <DIR>          ..
+08/06/2025  00:58               188 api.php
+09/06/2025  20:13             2 360 auth.php
+26/05/2025  18:17               210 console.php
+12/06/2025  15:53               755 web.php
+               4 File(s)          3 513 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\tests
+
+12/06/2025  18:33    <DIR>          .
+13/06/2025  00:27    <DIR>          ..
+11/06/2025  16:37    <DIR>          Feature
+12/06/2025  15:49             1 654 Pest.php
+12/06/2025  19:08                 0 results.xml
+12/06/2025  19:01               205 TestCase.php
+26/05/2025  18:17    <DIR>          Unit
+               3 File(s)          1 859 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\tests\Feature
+
+11/06/2025  16:37    <DIR>          .
+12/06/2025  18:33    <DIR>          ..
+08/06/2025  01:19    <DIR>          Auth
+09/06/2025  20:13               129 ExampleTest.php
+11/06/2025  16:37               109 JobApplicationTest.php
+12/06/2025  16:02             1 149 JobTest.php
+12/06/2025  15:37             2 036 ProfileTest.php
+11/06/2025  16:37               109 RegistrationWindowTest.php
+               5 File(s)          3 532 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\tests\Feature\Auth
+
+08/06/2025  01:19    <DIR>          .
+11/06/2025  16:37    <DIR>          ..
+12/06/2025  15:26             1 667 AuthenticationTest.php
+09/06/2025  20:13             1 325 EmailVerificationTest.php
+12/06/2025  15:26             1 396 PasswordConfirmationTest.php
+12/06/2025  15:37             2 410 PasswordResetTest.php
+12/06/2025  19:04             1 463 PasswordUpdateTest.php
+12/06/2025  15:21               781 RegistrationTest.php
+               6 File(s)          9 042 bytes
+
+ Directory of C:\laragon\www\epatv-job-portal\tests\Unit
+
+26/05/2025  18:17    <DIR>          .
+12/06/2025  18:33    <DIR>          ..
+09/06/2025  20:13                81 ExampleTest.php
+               1 File(s)             81 bytes
+
+     Total Files Listed:
+              15 File(s)         14 514 bytes
+              11 Dir(s)  24 462 368 768 bytes free
